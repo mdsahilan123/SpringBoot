@@ -4,7 +4,7 @@ import in.ashokit.dao.BookDao;
 
 public class BookServiceImpl implements BookSerice {
 
-	private BookDao bookDao;
+	public BookDao bookDao;
 
 	public void setBookDao(BookDao bookDao) {
 		this.bookDao = bookDao;
