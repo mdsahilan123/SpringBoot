@@ -1,6 +1,6 @@
 package in.ashokit.dao;
 
-private interface BookDao {
+public interface BookDao {
      public boolean save();
 }
   
